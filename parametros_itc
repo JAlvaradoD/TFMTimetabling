@@ -1,0 +1,17 @@
+# Parametros del algoritmo
+ga_population_size=80
+ga_iterations=1000
+ga_runtime=480
+# Seleccion: 1 Por Torneo | 2 Ruleta
+ga_type_selection=1
+ga_crossover_rate=0.8
+ga_crossover_timeslots=10
+ga_mutation_rate=0.04
+ga_hill_climbing_rate=0.05
+# Puntos de penalizacion
+penalty_room_capacity=1
+penalty_min_working_days=5
+penalty_curriculum_compacness=2
+penalty_room_stability=1
+# Modo debug
+debug_mode=false
